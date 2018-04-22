@@ -1,18 +1,13 @@
-# Lists, intents, webviews
+# Widgets and navigation
 
-Build a simple app that shows a list of all planets (picture and name). 
+You will need to read about different widgets and UI navigation elements available in the 
 
-On the first screen (activity) you need a [RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview.html). The RecyclerView is a modern equivalent of the ListView which and has several benefits.
-Ignore the following tip and don't use fragments yet - 
-_Tip: Start with some template code in Android Studio by clicking File > New > Fragment > Fragment (List). Then simply add the fragment to your activity layout._ 
-You may read the _Enable list-item selection_ section if you want.
+There are tons of other widgets than the ones you will encounter that can be used in your projects, you can browse them [here](https://developer.android.com/reference/android/widget/package-summary.html). You don't need to know them well, just know that such widgets exist. You can dig deeper when you need to use them.
 
-When you click on an list item open more detailed information about the planet. Implement (not at the same time :D) the following 3 scenarios:
+Sometimes a widget that you need is not available in the platform. In this case usually you can find some open source library in github that implements such widget which you can then import it in your project. Aim for ones with higher number of stars. In some cases there are no such libraries and we need to write our own custom views. We'll do this in some of the next projects.
 
-1. Open a new activity where some predefined text about the planet is shown. 
-2. Open the wikipedia article about the selected planet in external app (chrome or wikipedia).
-3. Open the wikipedia article in a webview (described below) in your app.
+Create an app with several screens (activities).
 
-For opening the different variants of the details screen you need to know abouth [implicit/explicit intents](https://developer.android.com/guide/components/intents-filters.html)  
-
-For opening a webpage in the webview you need to read the __WebView__ [tutorial](https://developer.android.com/guide/webapps/webview.html).
+1. **Main screen** - you have a choice of 3 screens: "Screen 1", "Screen 2" and "Screen 3" as [buttons](https://developer.android.com/guide/topics/ui/controls/button.html). Clicking on each button opens a new screen. For opening a different activity you need to know about [intents](https://developer.android.com/guide/components/intents-filters.html).
+2. **Screen 1** - here you have an [EditText](https://developer.android.com/reference/android/widget/EditText.html) where you can input some text. There are three buttons - the first one opens a [toast](https://developer.android.com/guide/topics/ui/notifiers/toasts.html) with the string from the EditText, the second one opens a [snackbar](https://developer.android.com/training/snackbar/index.html) with the string (with a single button which closes the snackbar) and the third one opens a [dialog](https://developer.android.com/guide/topics/ui/dialogs.html) which also shows the string. [Back button](https://developer.android.com/reference/android/app/Activity.html#onBackPressed()) action should clear the string in the EditText and if the text is empty should close the current activity.
+3. **Screen 2** - here you have a [spinner](https://developer.android.com/guide/topics/ui/controls/spinner.html) (a form of dropdown selection menu) with different options (random strings). Automatically display the selected option in a [TextView](https://developer.android.com/reference/android/widget/TextView.html). Also you should have (at least) 3 [radio buttons](https://developer.android.com/guide/topics/ui/controls/radiobutton.html) with options such as "Bold", "Italic", "Normal"... Find different variants for formatting the text in a TextView. Depending on the selected option the string selected from the spinner will be using this formatting in the TextView.
