@@ -1,6 +1,6 @@
 # Web crawler app
 
-You will create a simple [web crawler](https://en.wikipedia.org/wiki/Web_crawler). This will be an app with 2 screens where you will do some simple web request and dynamically add elements to a list. 
+You will create a simple [web crawler](https://en.wikipedia.org/wiki/Web_crawler). This will be an app with 2 screens where you will do some simple web requests and dynamically add elements to a list.
 
 ## Main screen
 Where you have:
