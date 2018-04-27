@@ -1,11 +1,12 @@
 # Lists, intents, webviews
 
-Build a simple app that shows a list of all planets (picture and name). 
+Build a simple app that shows a list of all planets (picture and name). Add Pluto if you feel it was not fair to denounce it as a planet :).
 
 On the first screen (activity) you need a [RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview.html). The RecyclerView is a modern equivalent of the ListView which has several benefits. The price is use difficulty.
 Ignore the following tip and don't use fragments yet: 
 
-_Tip: Start with some template code in Android Studio by clicking File > New > Fragment > Fragment (List). Then simply add the fragment to your activity layout._
+> Tip: Start with some template code in Android Studio by clicking File > New > Fragment > Fragment (List).
+> Then simply add the fragment to your activity layout._
  
 You may read the _Enable list-item selection_ section if you want.
 
@@ -17,4 +18,4 @@ When you click on an list item open more detailed information about the planet. 
 
 For opening the different variants of the details screen you need to know abouth [implicit/explicit intents](https://developer.android.com/guide/components/intents-filters.html)  
 
-For opening a webpage in the webview you need to read the __WebView__ [tutorial](https://developer.android.com/guide/webapps/webview.html).
+For opening a webpage in the webview you need to read the [WebView tutorial](https://developer.android.com/guide/webapps/webview.html).

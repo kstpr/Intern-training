@@ -1,7 +1,7 @@
 # Getting started
 
 Read the following [tutorial](https://developer.android.com/training/basics/firstapp/index.html).
-Build the simple app that's described there. In the process you will also install Android Studio and will setup a development environment. Make a dedicated directory on your hard drive where you will put all the projects you do (E.g. `C:\Projects\` or `~/Projects/`).
+Build the simple app that's described there. In the process you will also install Android Studio and will setup a development environment. Make a dedicated directory on your hard drive where you will put all the projects you create (E.g. `C:\Projects\` or `~/Projects/`).
 
 Start reading about __activities__ [here](https://developer.android.com/guide/components/activities/index.html).
 Roughly speaking activities represent a screen in the app.
