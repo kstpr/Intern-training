@@ -16,6 +16,6 @@ When you click on an list item open more detailed information about the planet. 
 2. Open the wikipedia article about the selected planet in external app (chrome or wikipedia).
 3. Open the wikipedia article in a webview (described below) in your app.
 
-For opening the different variants of the details screen you need to know abouth [implicit/explicit intents](https://developer.android.com/guide/components/intents-filters.html)  
+For opening the different variants of the details screen you need to know about [implicit/explicit intents](https://developer.android.com/guide/components/intents-filters.html)  
 
 For opening a webpage in the webview you need to read the [WebView tutorial](https://developer.android.com/guide/webapps/webview.html).
