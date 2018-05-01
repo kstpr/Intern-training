@@ -1,7 +1,10 @@
 # Weather Report app
 
 You will build a simple app that reports the current weather conditions in a city of choice. Not to be confused with the jazz-fusion band [Weather Report](https://www.youtube.com/watch?v=lSUk8bSVHYc). The app, depending on the device that is used to run it, has one or two screens. If you use a phone you will have two consecutive screens, if you use a tablet you will have two __"subscreens"__ that now share the large visible area of the screen.
-![alt text](https://developer.android.com/images/fundamentals/fragments.png "Fragments") To implement this you will use [fragments](https://developer.android.com/guide/components/fragments). You will consume [REST APIs](https://en.wikipedia.org/wiki/Representational_state_transfer) and will work with [JSON](https://en.wikipedia.org/wiki/JSON). The app will show the following two "subscreens":
+
+![alt text](https://developer.android.com/images/fundamentals/fragments.png "Fragments")
+
+To implement this you will use [fragments](https://developer.android.com/guide/components/fragments). You will consume [REST APIs](https://en.wikipedia.org/wiki/Representational_state_transfer) and will work with [JSON](https://en.wikipedia.org/wiki/JSON). The app will show the following two "subscreens":
 
 ## Cities list
 
