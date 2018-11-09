@@ -7,7 +7,7 @@ Start reading about __activities__ [here](https://developer.android.com/guide/co
 Roughly speaking activities represent a screen in the app.
 
 While reading the [introduction](https://developer.android.com/guide/components/activities/intro-activities.html) override the following methods in an activity in the app you've already built: 
-`onCreate(Bundle)`, `onStart`, `onResume`, `onPause`, `onStop`, `onRestart`, `onDestory`. Add the following code `Log.i("Lifecycle", METHOD_NAME);` in the methods implementation, METHOD_NAME being a string of each method name.
+`onCreate(Bundle)`, `onStart`, `onResume`, `onPause`, `onStop`, `onRestart`, `onDestroy`. Add the following code `Log.i("Lifecycle", METHOD_NAME);` in the methods implementation, METHOD_NAME being a string of each method name.
 
 Now open __Logcat__ in Android Studio (lower left corner). It shows you real-time logging. If using a real device you must enable developer options -> usb debugging. Experiment with your app - rotate the device/emulator, minimize the app to recents and maximize it again, lock the device and then unlock it. Notice when each method is called.
 
